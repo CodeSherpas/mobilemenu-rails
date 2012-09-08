@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "mobilemenu-rails"
   gem.require_paths = ["lib"]
-  gem.version       = Gmap::Rails::VERSION
+  gem.version       = Mobilemenu::Rails::VERSION
   
   gem.add_development_dependency "rake"
 end
